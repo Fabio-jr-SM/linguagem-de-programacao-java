@@ -27,4 +27,10 @@ public class Pessoa {
 	public void setDataNascimento(Date data_nascimento) {
 		this.nome = data_nascimento;
 	}
+
+        public void exibir(){
+                System.out.println("Nome: "+ this.nome);
+                System.out.println("Cpf: "+ this.cpf);
+                System.out.println("Nascimento: "+ this.data_nascimento);
+        }
 }
