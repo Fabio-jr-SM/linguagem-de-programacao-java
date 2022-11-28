@@ -24,7 +24,7 @@ public class Pessoa {
 		return this.data_nascimento;
 	}
 
-	public void setDataNascimento(String data_nascimento) {
+	public void setDataNascimento(Date data_nascimento) {
 		this.nome = data_nascimento;
 	}
 }
